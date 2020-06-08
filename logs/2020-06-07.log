@@ -1,0 +1,130 @@
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD | ROUTE |          HANDLER           | MIDDLEWARE  
+|---------|---------|---------|--------|-------|----------------------------|------------|
+  default | default |     100 | ALL    | /     | gf-app/app/api/hello.Hello |             
+|---------|---------|---------|--------|-------|----------------------------|------------|
+
+2020-06-07 20:20:27.138 15620: http server started listening on [:100]
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD | ROUTE |          HANDLER           | MIDDLEWARE  
+|---------|---------|---------|--------|-------|----------------------------|------------|
+  default | default |     100 | ALL    | /     | gf-app/app/api/hello.Hello |             
+|---------|---------|---------|--------|-------|----------------------------|------------|
+
+2020-06-07 22:03:21.563 18284: http server started listening on [:100]
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD | ROUTE |     HANDLER     | MIDDLEWARE  
+|---------|---------|---------|--------|-------|-----------------|------------|
+  default | default |      81 | ALL    | /     | main.main.func1 |             
+|---------|---------|---------|--------|-------|-----------------|------------|
+
+2020-06-07 22:46:19.296 12924: http server started listening on [:81]
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |   ROUTE   |     HANDLER     | MIDDLEWARE  
+|---------|---------|---------|--------|-----------|-----------------|------------|
+  default | default |      82 | ALL    | /         | main.main.func1 |             
+|---------|---------|---------|--------|-----------|-----------------|------------|
+  default | default |      82 | ALL    | /UpdateIP | main.main.func2 |             
+|---------|---------|---------|--------|-----------|-----------------|------------|
+
+2020-06-07 22:47:01.372 15828: http server started listening on [:82]
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |   ROUTE   |     HANDLER     | MIDDLEWARE  
+|---------|---------|---------|--------|-----------|-----------------|------------|
+  default | default |      82 | ALL    | /         | main.main.func1 |             
+|---------|---------|---------|--------|-----------|-----------------|------------|
+  default | default |      82 | ALL    | /UpdateIP | main.main.func2 |             
+|---------|---------|---------|--------|-----------|-----------------|------------|
+
+2020-06-07 22:59:22.969 15944: http server started listening on [:82]
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |          ROUTE          |     HANDLER     | MIDDLEWARE  
+|---------|---------|---------|--------|-------------------------|-----------------|------------|
+  default | default |      82 | HTTP   | //localhost:81/UpdateIP | main.main.func1 |             
+|---------|---------|---------|--------|-------------------------|-----------------|------------|
+
+2020-06-07 22:59:35.173 [FATA] 17220: net.Listen error: listen tcp :82: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted. 
+Stack:
+1.  github.com/gogf/gf/net/ghttp.(*Server).startServer.func1
+    C:/GOPATH/pkg/mod/github.com/gogf/gf@v1.13.0/net/ghttp/ghttp_server.go:565
+
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |   ROUTE   |     HANDLER     | MIDDLEWARE  
+|---------|---------|---------|--------|-----------|-----------------|------------|
+  default | default | :82     | ALL    | /         | main.main.func1 |             
+|---------|---------|---------|--------|-----------|-----------------|------------|
+  default | default | :82     | ALL    | /UpdateIP | main.main.func2 |             
+|---------|---------|---------|--------|-----------|-----------------|------------|
+
+2020-06-07 23:02:27.020 16108: http server started listening on [:82]
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |          ROUTE          |     HANDLER     | MIDDLEWARE  
+|---------|---------|---------|--------|-------------------------|-----------------|------------|
+  default | default | :81     | HTTP   | //localhost:81/UpdateIP | main.main.func1 |             
+|---------|---------|---------|--------|-------------------------|-----------------|------------|
+
+2020-06-07 23:02:37.195 15872: http server started listening on [:81]
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |   ROUTE   |     HANDLER     | MIDDLEWARE  
+|---------|---------|---------|--------|-----------|-----------------|------------|
+  default | default | :82     | ALL    | /         | main.main.func1 |             
+|---------|---------|---------|--------|-----------|-----------------|------------|
+  default | default | :82     | ALL    | /UpdateIP | main.main.func2 |             
+|---------|---------|---------|--------|-----------|-----------------|------------|
+
+2020-06-07 23:36:41.713 15952: http server started listening on [:82]
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |          ROUTE          |     HANDLER     | MIDDLEWARE  
+|---------|---------|---------|--------|-------------------------|-----------------|------------|
+  default | default | :81     | HTTP   | //localhost:81/UpdateIP | main.main.func1 |             
+|---------|---------|---------|--------|-------------------------|-----------------|------------|
+
+2020-06-07 23:39:40.797 3448: http server started listening on [:81]
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |   ROUTE   |     HANDLER     | MIDDLEWARE  
+|---------|---------|---------|--------|-----------|-----------------|------------|
+  default | default | :82     | ALL    | /         | main.main.func1 |             
+|---------|---------|---------|--------|-----------|-----------------|------------|
+  default | default | :82     | ALL    | /UpdateIP | main.main.func2 |             
+|---------|---------|---------|--------|-----------|-----------------|------------|
+
+2020-06-07 23:41:11.995 7164: http server started listening on [:82]
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |   ROUTE   |     HANDLER     | MIDDLEWARE  
+|---------|---------|---------|--------|-----------|-----------------|------------|
+  default | default | :82     | ALL    | /         | main.main.func1 |             
+|---------|---------|---------|--------|-----------|-----------------|------------|
+  default | default | :82     | ALL    | /UpdateIP | main.main.func2 |             
+|---------|---------|---------|--------|-----------|-----------------|------------|
+
+2020-06-07 23:41:38.978 18184: http server started listening on [:82]
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |          ROUTE          |     HANDLER     | MIDDLEWARE  
+|---------|---------|---------|--------|-------------------------|-----------------|------------|
+  default | default | :81     | HTTP   | //localhost:81/UpdateIP | main.main.func1 |             
+|---------|---------|---------|--------|-------------------------|-----------------|------------|
+
+2020-06-07 23:42:14.656 6764: http server started listening on [:81]
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |   ROUTE   |     HANDLER     | MIDDLEWARE  
+|---------|---------|---------|--------|-----------|-----------------|------------|
+  default | default | :82     | ALL    | /         | main.main.func1 |             
+|---------|---------|---------|--------|-----------|-----------------|------------|
+  default | default | :82     | ALL    | /UpdateIP | main.main.func2 |             
+|---------|---------|---------|--------|-----------|-----------------|------------|
+
+2020-06-07 23:50:02.854 16924: http server started listening on [:82]
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |          ROUTE          |     HANDLER     | MIDDLEWARE  
+|---------|---------|---------|--------|-------------------------|-----------------|------------|
+  default | default | :81     | HTTP   | //localhost:81/UpdateIP | main.main.func1 |             
+|---------|---------|---------|--------|-------------------------|-----------------|------------|
+
+2020-06-07 23:50:18.131 14620: http server started listening on [:81]
+2020-06-07 23:59:29.263 3020: http server started listening on [:81]
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |          ROUTE          |     HANDLER     | MIDDLEWARE  
+|---------|---------|---------|--------|-------------------------|-----------------|------------|
+  default | default | :81     | HTTP   | //localhost:81/UpdateIP | main.main.func1 |             
+|---------|---------|---------|--------|-------------------------|-----------------|------------|
+

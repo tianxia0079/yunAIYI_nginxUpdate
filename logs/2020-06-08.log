@@ -1,0 +1,123 @@
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |   ROUTE   |     HANDLER     | MIDDLEWARE  
+|---------|---------|---------|--------|-----------|-----------------|------------|
+  default | default | :82     | ALL    | /         | main.main.func1 |             
+|---------|---------|---------|--------|-----------|-----------------|------------|
+  default | default | :82     | ALL    | /UpdateIP | main.main.func2 |             
+|---------|---------|---------|--------|-----------|-----------------|------------|
+
+2020-06-08 00:00:26.832 15932: http server started listening on [:82]
+2020-06-08 00:00:44.899 15208: http server started listening on [:81]
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |          ROUTE          |     HANDLER     | MIDDLEWARE  
+|---------|---------|---------|--------|-------------------------|-----------------|------------|
+  default | default | :81     | HTTP   | //localhost:81/UpdateIP | main.main.func1 |             
+|---------|---------|---------|--------|-------------------------|-----------------|------------|
+
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |   ROUTE   |     HANDLER     | MIDDLEWARE  
+|---------|---------|---------|--------|-----------|-----------------|------------|
+  default | default | :82     | ALL    | /         | main.main.func1 |             
+|---------|---------|---------|--------|-----------|-----------------|------------|
+  default | default | :82     | ALL    | /UpdateIP | main.main.func2 |             
+|---------|---------|---------|--------|-----------|-----------------|------------|
+
+2020-06-08 00:01:22.888 16004: http server started listening on [:82]
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |   ROUTE   |     HANDLER     | MIDDLEWARE  
+|---------|---------|---------|--------|-----------|-----------------|------------|
+  default | default | :82     | ALL    | /         | main.main.func1 |             
+|---------|---------|---------|--------|-----------|-----------------|------------|
+  default | default | :82     | ALL    | /UpdateIP | main.main.func2 |             
+|---------|---------|---------|--------|-----------|-----------------|------------|
+
+2020-06-08 00:04:21.639 14496: http server started listening on [:82]
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |          ROUTE          |     HANDLER     | MIDDLEWARE  
+|---------|---------|---------|--------|-------------------------|-----------------|------------|
+  default | default | :81     | HTTP   | //localhost:81/UpdateIP | main.main.func1 |             
+|---------|---------|---------|--------|-------------------------|-----------------|------------|
+
+2020-06-08 00:04:21.706 17220: http server started listening on [:81]
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |   ROUTE   |     HANDLER     | MIDDLEWARE  
+|---------|---------|---------|--------|-----------|-----------------|------------|
+  default | default | :82     | ALL    | /         | main.main.func1 |             
+|---------|---------|---------|--------|-----------|-----------------|------------|
+  default | default | :82     | ALL    | /UpdateIP | main.main.func2 |             
+|---------|---------|---------|--------|-----------|-----------------|------------|
+
+2020-06-08 00:11:11.614 7508: http server started listening on [:82]
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |          ROUTE          |     HANDLER     | MIDDLEWARE  
+|---------|---------|---------|--------|-------------------------|-----------------|------------|
+  default | default | :81     | HTTP   | //localhost:81/UpdateIP | main.main.func1 |             
+|---------|---------|---------|--------|-------------------------|-----------------|------------|
+
+2020-06-08 00:16:19.694 9640: http server started listening on [:81]
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |   ROUTE   |     HANDLER     | MIDDLEWARE  
+|---------|---------|---------|--------|-----------|-----------------|------------|
+  default | default | :82     | ALL    | /         | main.main.func1 |             
+|---------|---------|---------|--------|-----------|-----------------|------------|
+  default | default | :82     | ALL    | /UpdateIP | main.main.func2 |             
+|---------|---------|---------|--------|-----------|-----------------|------------|
+
+2020-06-08 00:17:54.037 17940: http server started listening on [:82]
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |   ROUTE   |     HANDLER     | MIDDLEWARE  
+|---------|---------|---------|--------|-----------|-----------------|------------|
+  default | default | :82     | ALL    | /         | main.main.func1 |             
+|---------|---------|---------|--------|-----------|-----------------|------------|
+  default | default | :82     | ALL    | /UpdateIP | main.main.func2 |             
+|---------|---------|---------|--------|-----------|-----------------|------------|
+
+2020-06-08 00:18:37.464 2864: http server started listening on [:82]
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |   ROUTE   |     HANDLER     | MIDDLEWARE  
+|---------|---------|---------|--------|-----------|-----------------|------------|
+  default | default | :82     | ALL    | /         | main.main.func1 |             
+|---------|---------|---------|--------|-----------|-----------------|------------|
+  default | default | :82     | ALL    | /UpdateIP | main.main.func2 |             
+|---------|---------|---------|--------|-----------|-----------------|------------|
+
+2020-06-08 01:26:14.409 19528: http server started listening on [:82]
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |          ROUTE          |     HANDLER     | MIDDLEWARE  
+|---------|---------|---------|--------|-------------------------|-----------------|------------|
+  default | default | :81     | HTTP   | //localhost:81/UpdateIP | main.main.func1 |             
+|---------|---------|---------|--------|-------------------------|-----------------|------------|
+
+2020-06-08 01:26:14.421 14232: http server started listening on [:81]
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |   ROUTE   |     HANDLER     | MIDDLEWARE  
+|---------|---------|---------|--------|-----------|-----------------|------------|
+  default | default | :82     | ALL    | /         | main.main.func1 |             
+|---------|---------|---------|--------|-----------|-----------------|------------|
+  default | default | :82     | ALL    | /UpdateIP | main.main.func2 |             
+|---------|---------|---------|--------|-----------|-----------------|------------|
+
+2020-06-08 01:34:59.615 1384: http server started listening on [:82]
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |          ROUTE          |     HANDLER     | MIDDLEWARE  
+|---------|---------|---------|--------|-------------------------|-----------------|------------|
+  default | default | :81     | HTTP   | //localhost:81/UpdateIP | main.main.func1 |             
+|---------|---------|---------|--------|-------------------------|-----------------|------------|
+
+2020-06-08 01:35:55.834 16240: http server started listening on [:81]
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |   ROUTE   |     HANDLER     | MIDDLEWARE  
+|---------|---------|---------|--------|-----------|-----------------|------------|
+  default | default | :82     | ALL    | /         | main.main.func1 |             
+|---------|---------|---------|--------|-----------|-----------------|------------|
+  default | default | :82     | ALL    | /UpdateIP | main.main.func2 |             
+|---------|---------|---------|--------|-----------|-----------------|------------|
+
+2020-06-08 02:15:08.995 15228: http server started listening on [:82]
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD |          ROUTE          |     HANDLER     | MIDDLEWARE  
+|---------|---------|---------|--------|-------------------------|-----------------|------------|
+  default | default | :81     | HTTP   | //localhost:81/UpdateIP | main.main.func1 |             
+|---------|---------|---------|--------|-------------------------|-----------------|------------|
+
+2020-06-08 02:15:19.863 2504: http server started listening on [:81]
